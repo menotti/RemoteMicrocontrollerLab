@@ -22,7 +22,7 @@ Dependencies
 - Motion (for webcam) (https://github.com/Motion-Project/motion)
 - WebREPL HTML application (https://github.com/micropython/webrepl)
 - WebREPL Serial to WebSocket server (https://github.com/rafaelaroca/SerialWebSocketServer)
-
+- HexEditor (http://xem.github.io/hex)
 
 Installation / dependencies
 1. On a Linux machine, install Apache + MySQL + PHP and Apache+PHP+MySQL modules, if you still don't have it
