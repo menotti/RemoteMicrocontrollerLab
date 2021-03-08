@@ -20,7 +20,10 @@ Dependencies
 - Arduino makefile (https://github.com/sudar/Arduino-Makefile)
 - Arduino IDE
 - Motion (for webcam) (https://github.com/Motion-Project/motion)
-- 
+- WebREPL HTML application (https://github.com/micropython/webrepl)
+- WebREPL Serial to WebSocket server (https://github.com/rafaelaroca/SerialWebSocketServer)
+
+
 Installation / dependencies
 1. On a Linux machine, install Apache + MySQL + PHP and Apache+PHP+MySQL modules, if you still don't have it
 2. Install luxcal (https://www.luxsoft.eu/index.php?pge=dload) on /var/www/html/agenda folder (tested with luxcal 479)
