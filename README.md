@@ -14,3 +14,9 @@ Tested with Arduino and ESP8266 boards (Rafael Aroca)
 
 
 Prof. Ricardo Menotti adapted it to work with FPGA devices, allowing synthesis, upload and test of FPGA devices remotely
+
+TODO
+- upload code
+- screenshot
+- photo
+- better explain how it works
