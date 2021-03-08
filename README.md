@@ -12,6 +12,21 @@ Features
 
 Tested with Arduino and ESP8266 boards (Rafael Aroca)
 
+Dependencies
+- CodeMirror (https://github.com/codemirror/CodeMirror)
+- LuxCal (https://www.luxsoft.eu/index.php?pge=dload)
+- MySQL
+- Apache + PHP
+- Arduino makefile (https://github.com/sudar/Arduino-Makefile)
+- Arduino IDE
+- Motion (for webcam) (https://github.com/Motion-Project/motion)
+- 
+Installation / dependencies
+1. On a Linux machine, install Apache + MySQL + PHP and Apache+PHP+MySQL modules, if you still don't have it
+2. Install luxcal (https://www.luxsoft.eu/index.php?pge=dload) on /var/www/html/agenda folder (tested with luxcal 479)
+3. Configure luxcal database and SMTP. Test your calendar install and if approved events are senging email
+4. Install and configure motion
+5. 
 
 Prof. Ricardo Menotti adapted it to work with FPGA devices, allowing synthesis, upload and test of FPGA devices remotely
 
