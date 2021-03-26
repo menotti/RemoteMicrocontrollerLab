@@ -16,7 +16,7 @@ Features
 - Real time access (full duplex) to the device's serial port using a web-base remote terminal (connected to the device's serial port)
 - Transparent remote code upload using avrdude or esptool from the web-browser
 
-Tested with Arduino and ESP8266 boards (Rafael Aroca)
+Tested with Arduino and ESP8266 boards. It would be easy to use with mBed / STM32 boards using UF2 bootloader
 
 Dependencies
 - CodeMirror (https://github.com/codemirror/CodeMirror)
@@ -35,12 +35,9 @@ Installation / dependencies
 2. Install luxcal (https://www.luxsoft.eu/index.php?pge=dload) on /var/www/html/agenda folder (tested with luxcal 479)
 3. Configure luxcal database and SMTP. Test your calendar install and if approved events are senging email
 4. Install and configure motion
-5. 
+5. Download and copy CodeMirror (codemirror-5.58.1) to /var/www/html/codemirror-5.58.1
+6. Download and copy http://xem.github.io/hex to /var/www/html/editor/network/hexEditor
 
 Prof. Ricardo Menotti adapted it to work with FPGA devices, allowing synthesis, upload and test of FPGA devices remotely
 
-TODO
-- upload code
-- screenshot
-- photo
-- better explain how it works
+
