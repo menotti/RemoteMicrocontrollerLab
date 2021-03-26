@@ -1,0 +1,52 @@
+
+#define DELAY 100 // 1/9600bps
+
+void setup() {
+  pinMode(1, OUTPUT);
+}
+
+void loop() {
+
+  //Envia a letra L = 0x01001100
+  
+  //Envia bit de idle
+  digitalWrite(1, HIGH);
+  delayMicroseconds(500);
+
+  //Envia bit de start
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  //Inicia envio pelo LSB
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, HIGH);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, HIGH);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, HIGH);
+  delayMicroseconds(DELAY);
+
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  //Envia bit de stop
+  digitalWrite(1, LOW);
+  delayMicroseconds(DELAY);
+
+  delay(500);
+  
+}
+
