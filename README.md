@@ -38,6 +38,6 @@ Installation / dependencies
 5. Download and copy CodeMirror (codemirror-5.58.1) to /var/www/html/codemirror-5.58.1
 6. Download and copy http://xem.github.io/hex to /var/www/html/editor/network/hexEditor
 
-Prof. Ricardo Menotti adapted it to work with FPGA devices, allowing synthesis, upload and test of FPGA devices remotely
+[Prof. Ricardo Menotti](https://menotti.github.io) adapted it to work with FPGA devices, allowing synthesis, upload and [test of FPGA devices remotely](https://vlab.dc.ufscar.br).
 
 
